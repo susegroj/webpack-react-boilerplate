@@ -1,0 +1,9 @@
+{
+  "name": "webpack-react-boilerplate",
+  "version": "1.0.0",
+  "description": "A boiler of webpack focused on react app",
+  "main": "index.js",
+  "author": "susegroj <jor_ge_711@hotmail.com>",
+  "license": "MIT",
+  "private": false
+}
