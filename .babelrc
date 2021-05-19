@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    // "@babel/preset-react" // THIS IS THE COMMON CONFIG,
+    /*
+      ! Adding the config below, you won't need to import "React"
+      ! in every jsx file, will be there by default. It replaces the
+      ! line above. If you're learning react, I don't recommend this in order
+      ! you can get use with good practices and with the React imports.
+    */
+    [ "@babel/preset-react", {
+        "runtime": "automatic"
+    }]
+  ]
+}
